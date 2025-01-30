@@ -1,0 +1,27 @@
+{
+  "name": "@mingyue/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "module": "index.ts",
+  "bin": {
+    "mingyues": "./bin/mingyues"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsup index.ts",
+    "dev": "tsup index.ts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mingyue/core": "workspace:*",
+    "@mingyue/shared": "workspace:*",
+    "tsup": "8.2.4",
+    "typescript": "^5.7.3"
+  }
+}

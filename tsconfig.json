@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "lib": ["ESNext", "DOM"],
+        "module": "ES2020",
+        "moduleResolution": "node",// 模块解析策略
+        "outDir": "./dist"
+    },
+    "include": ["packages/**/*"]
+}
