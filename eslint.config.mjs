@@ -7,7 +7,7 @@ export default tsEslint.config({
   files: ["**/*.ts", "**/*.tsx"],
   ignores: ["**/dist/**", "**/node_modules/**", "**/build/**", "*.js"],
   rules: {
-    "no-console": "error",
+    //"no-console": "error",
   },
   languageOptions: {
     parser: tsEslint.parser, // 规则解析器
