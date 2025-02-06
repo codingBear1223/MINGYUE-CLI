@@ -1,0 +1,16 @@
+
+
+> @mingyue/cli@1.0.0 build /Users/hankaiyue/Documents/practice/mingyue-cli/packages/cli
+> tsup src/index.ts
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.2.4
+[34mCLI[39m Using tsup config: /Users/hankaiyue/Documents/practice/mingyue-cli/packages/cli/tsup.config.ts
+[34mCLI[39m Target: es2020
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist/index.js [22m[32m7.39 KB[39m
+[32mCJS[39m ⚡️ Build success in 15ms
+DTS Build start
+DTS ⚡️ Build success in 690ms
+DTS dist/index.d.ts 108.00 B

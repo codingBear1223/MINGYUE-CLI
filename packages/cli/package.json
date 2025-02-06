@@ -12,8 +12,9 @@
     "bin"
   ],
   "scripts": {
-    "build": "tsup index.ts",
-    "dev": "tsup src/index.ts --watch"
+    "build": "tsup src/index.ts",
+    "dev": "tsup src/index.ts --watch",
+    "publish-npm": "npm publish"
   },
   "keywords": [],
   "author": "",
