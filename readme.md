@@ -12,8 +12,7 @@
 
 ## 工程化规则配置
 
-- **ESLint**：使用 `@eslint/js` 和相关插件进行代码检查，配置文件位于 `.eslintrc.js`。
-- **Prettier**：使用 Prettier 进行代码格式化，配置文件位于 `.prettierrc`。
+- **ESLint**：使用 `@eslint/js` 和相关插件进行代码检查，配置文件位于 `eslint.config.mjs`。
 - **TypeScript**：项目使用 TypeScript，配置文件位于 `tsconfig.json`。
 - **Commit 检查规则**：使用 `commitlint` 和 `husky` 进行提交信息检查，确保提交信息符合规范。
 
